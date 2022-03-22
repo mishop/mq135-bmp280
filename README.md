@@ -7,8 +7,8 @@ const char* password = ;     // The password of the Wi-Fi network\
 #define INFLUXDB_URL \
 #define INFLUXDB_TOKEN \
 #define INFLUXDB_ORG \
-#define INFLUXDB_BUCKET\
+#define INFLUXDB_BUCKET
 
 # MQ135 Setup 
-In mq135.h lib file set rload - resistence, rzero correction factor.
+In mq135.h lib file set rload - resistence, rzero correction factor.\
 MQ135(uint8_t pin, float rzero=4.0, float rload=10.0);
